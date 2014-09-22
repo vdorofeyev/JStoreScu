@@ -1,7 +1,8 @@
-import org.dcm4che.tool.storescu.StoreSCU;
+import org.dcm4che3.tool.storescu.StoreSCU;
 
 import javax.swing.*;
 import java.awt.event.*;
+import java.util.Properties;
 
 public class MainDialog extends JDialog {
     private JPanel contentPane;
@@ -9,12 +10,21 @@ public class MainDialog extends JDialog {
     private JButton buttonCancel;
     private JTextField pathTextField;
     private JTextField dstTextField;
+    private JTextPane textPane1;
+    Properties properties = new Properties();
 
     public MainDialog() {
         setContentPane(contentPane);
         setModal(true);
-        getRootPane().setDefaultButton(buttonOK);
+ /*       getRootPane().setDefaultButton(buttonOK);
+        try {
+            properties.load(new FileInputStream("prop.properties"));
+        }
+        catch(IOException e)
+        {
 
+        }
+ */
         buttonOK.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 onOK();
@@ -56,6 +66,13 @@ public class MainDialog extends JDialog {
     }
 
     public static void main(String[] args) {
+/*        if(args.length!=2)
+        {
+            System.out.println("Использование: JStoreScu destination (AETitle@Ip:Port) path (/Path to Dicom Images Folder)");
+            return;
+        }
+        dialog.dstTextField.setName(args[0]);
+   */
         MainDialog dialog = new MainDialog();
         dialog.pack();
         dialog.setVisible(true);
