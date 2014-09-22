@@ -1,4 +1,4 @@
-import org.dcm4che.tool.storescu.StoreSCU;
+import org.dcm4che3.tool.storescu.StoreSCU;
 
 import javax.swing.*;
 import java.awt.event.*;
@@ -56,6 +56,13 @@ public class MainDialog extends JDialog {
     }
 
     public static void main(String[] args) {
+/*        if(args.length!=2)
+        {
+            System.out.println("Использование: JStoreScu destination (AETitle@Ip:Port) path (/Path to Dicom Images Folder)");
+            return;
+        }
+        dialog.dstTextField.setName(args[0]);
+   */
         MainDialog dialog = new MainDialog();
         dialog.pack();
         dialog.setVisible(true);
