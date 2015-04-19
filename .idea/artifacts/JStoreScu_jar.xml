@@ -3,6 +3,7 @@
     <output-path>$PROJECT_DIR$/out/artifacts/JStoreScu_jar</output-path>
     <root id="archive" name="JStoreScu.jar">
       <element id="module-output" name="JStoreScu" />
+      <element id="dir-copy" path="$PROJECT_DIR$" />
       <element id="extracted-dir" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/log4j-1.2.17.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/commons-cli-1.2.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/slf4j-api-1.7.5.jar" path-in-jar="/" />
@@ -61,64 +62,6 @@
       <element id="extracted-dir" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-conf-ldap-imageio-3.3.3.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-tool-ihe-modality-3.3.3.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-conf-prefs-imageio-3.3.3.jar" path-in-jar="/" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/log4j-1.2.17.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/commons-cli-1.2.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/slf4j-api-1.7.5.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-emf-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-hl7-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-net-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-core-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-mime-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-audit-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-image-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/slf4j-log4j12-1.7.5.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-imageio-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-net-hl7-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-soundex-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-conf-api-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-conf-ldap-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-net-audit-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-conf-prefs-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-tool-mkkos-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-imageio-rle-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-tool-common-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-tool-dcmdir-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-tool-emf2sf-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-tool-getscu-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-tool-hl7pix-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-tool-hl7rcv-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-tool-hl7snd-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-tool-ianscp-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-tool-ianscu-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-tool-syslog-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-conf-api-hl7-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-tool-dcm2dcm-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-tool-dcm2jpg-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-tool-dcm2xml-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-tool-dcmdump-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-tool-findscu-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-tool-hl72xml-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-tool-movescu-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-tool-mppsscp-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-tool-mppsscu-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-tool-syslogd-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-tool-xml2dcm-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-tool-xml2hl7-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/jai_imageio-1.2-pre-dr-b04.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-conf-ldap-hl7-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-tool-dcmqrscp-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-tool-storescp-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-tool-storescu-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-conf-prefs-hl7-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-tool-stgcmtscu-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-tool-xml2prefs-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-conf-ldap-audit-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-conf-prefs-audit-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-tool-dcmvalidate-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/clibwrapper_jiio-1.2-pre-dr-b04.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-conf-ldap-imageio-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-tool-ihe-modality-3.3.3.jar" />
-      <element id="file-copy" path="$PROJECT_DIR$/../dcm4che-3.3.3/lib/dcm4che-conf-prefs-imageio-3.3.3.jar" />
     </root>
   </artifact>
 </component>
